@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<materials>
+  <material id="10" name="Na">
+    <density units="g/cm3" value="0.96"/>
+    <nuclide ao="1.0" name="Na23"/>
+  </material>
+  <material depletable="true" id="13" name="U235(0.0019)-U238(0.7509)-Pu238(0.0046)-Pu239(0.0612)-Pu240(0.0383)-Pu241(0.0106)-Pu242(0.0134)-Am241(0.001)-O16(0.1181)" volume="0.5541769440932395">
+    <density units="g/cm3" value="9.999999999999998"/>
+    <nuclide ao="0.6661243829405236" name="O16"/>
+    <nuclide ao="0.000729276004109853" name="U235"/>
+    <nuclide ao="0.28457702987912203" name="U238"/>
+    <nuclide ao="0.0017433228053042897" name="Pu238"/>
+    <nuclide ao="0.02309649648105444" name="Pu239"/>
+    <nuclide ao="0.014393868379021879" name="Pu240"/>
+    <nuclide ao="0.003967105482897609" name="Pu241"/>
+    <nuclide ao="0.004994262759096348" name="Pu242"/>
+    <nuclide ao="0.00037425526887013627" name="Am241"/>
+  </material>
+  <material id="14" name="Cu63(0.997)-Al2O3(0.003)">
+    <density units="g/cm3" value="10.0"/>
+    <nuclide ao="0.005518744018637899" name="O16"/>
+    <nuclide ao="0.0036805576104262856" name="Al27"/>
+    <nuclide ao="0.9907986059739343" name="Cu63"/>
+    <nuclide ao="2.092397001527343e-06" name="O17"/>
+  </material>
+</materials>
